@@ -1,0 +1,517 @@
+
+/* En tête de la page */
+
+header .menu {
+	display: flex;
+}
+
+#container img {
+	width : 100px;
+	position:relative;
+	left:25px;
+}
+
+.navigation_1, .navigation_2 {
+	display: flex;
+	width: 125px;
+    position: relative;
+    left: 1150px;
+}
+
+.navigation_1 {
+	color:#0065FC  ;
+	
+}
+.navigation_1 a {
+	text-decoration: none;
+	color:#0065FC;
+	border-top: solid;
+	border-color:#0065FC ;
+}
+
+.navigation_2 a {
+	text-decoration:none;
+	color:black;
+}
+
+h5  {
+	margin-left: 5px;
+}
+
+h3 {
+	margin-left: 5px;
+}
+
+p {
+	margin-left:5px;
+}
+/* Barre de Recherche */
+
+#Rechercher {
+	border:solid;
+	border-radius:15px/10px;
+	color:#F2F2F2;
+	padding:8px;
+}
+
+label {
+
+	border:solid;
+	border-radius:2px 15px 15px 2px;
+	padding:5px;
+	border-color: #0065FC ;
+	background-color: #0065FC ;
+	color:#F2F2F2;
+	position: relative;
+	left:200px;
+	top:-42px;
+}
+
+label a {
+	text-decoration: none;
+	color:white;
+}
+
+.formulaire {
+	display: block ruby;
+
+}
+
+/* Filtres */
+
+.choix {
+	
+	margin: 5px;
+	border-style:solid;
+	border-radius: 25px;
+	border-color:lightgrey;
+	display:flex;
+	width : 190px;
+	height:35px;
+
+}
+
+.choix a {
+	text-decoration: none;
+	color:black;
+
+}
+#Titre_Filtre {
+	width:7%;
+	position:relative;
+	left:15px;
+}
+
+
+.Test_choix {
+    position:relative;
+	width: 80%;
+	text-align: center;
+	font-weight:bolder;
+	display: flex;
+	margin:auto;
+
+}
+
+.icone_choix {
+	color:#0065FC;
+	background-color:#DEEBFF ;
+	width : 45px;
+	height: 45px;
+	border-radius: 50%;
+	position: relative;
+	left: -4px;
+	top: -5px;
+	display:flex;
+}
+
+.icone_choix i {
+	margin:auto;
+}
+
+
+#option {
+	display:flex;
+	position:relative;
+	top:-20px;
+}
+
+/* Plus de 500 logements sont disponibles dans cette ville */
+
+#Information i {
+        color:#0065FC;
+		
+}
+
+/* Quand on survole avec la souris */
+
+.choix a:hover {
+	color:#0065FC;
+}
+
+#Titre_Hebergements a:hover {
+	color:#0065FC;
+}
+
+#Titre_LPP a:hover {
+	color:#0065FC;
+}
+
+#Titre_Activite a:hover {
+	color:#0065FC;
+}
+
+
+/* Hebergements */
+
+#Images_Hebergements {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+
+	
+}
+
+#Titre_Hebergements a {
+
+	text-decoration: none;
+	color:black;
+}
+.fas.fa-star {
+	color:#0065FC;
+}
+
+.far.fa-star {
+	color:#0065FC;
+}
+
+.container {
+	max-width : 1440px;
+	margin: 0 auto;
+}
+
+
+img {
+	border-radius:5%;
+	width : 30%
+
+}
+
+#Showroom {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+#Hebergements {
+	background-color: #F2F2F2;
+	flex: 2 1 40%;
+	margin-right: 25px;
+	border-radius: 2%;
+	display: flex;
+	flex-flow: column;
+	margin-top: 25px;
+	margin : 20px;
+}
+
+#Titre_Hebergements {
+	margin: 10px;
+}
+
+#Titre_Hebergements a {
+	margin-left: 75px;
+	position: relative;
+	bottom: -30px;
+	right:50px; 
+}
+
+.bgimages {
+	background-color: white;
+	margin :2%;
+	width: 245px;
+	height: 180px;
+	border-radius: 3%;
+	box-shadow:1px 2px 2px 2px rgb(209, 207, 207);
+	padding-top:5px;
+	padding-left:5px;
+
+}
+
+.bgimages img {
+	width: 235px;
+	height: 70%;
+	padding: 3px;
+
+}
+
+.description {
+	background-color:white;
+	z-index: 1;
+	border-radius: 0px 0px 10px 10px;
+	position:relative;
+	top:-30px;
+	padding:5px;
+}
+
+.description span {
+	font-weight:bolder;
+}
+
+.description a {
+	text-decoration: none;
+	color:black;
+}
+
+/* Afficher Plus */
+
+#Affiche_plus{
+	height: 100px;
+	margin-left : 90px;
+
+}
+
+#Affiche_plus a {
+	text-decoration: none;
+	color:black;
+}
+
+/* Activités à Marseille */
+
+#Activites_Marseille {
+	display:flex;
+	margin: 10px;
+	max-height:500px;
+	flex-flow:column wrap;
+}
+
+#Titre_Activite a {
+	text-decoration: none;
+	color:black;
+}
+.acimages {
+	background-color:white;
+	display: inline-block;
+}
+
+.acimages_big img {
+	border-radius: 7%;
+	box-shadow:6px 2px 2px 2px rgb(209, 207, 207);
+	display:flex;
+	width: 300px;
+	margin: 15px;
+	padding-bottom : 45px;
+	height:400px;
+	object-fit: cover;
+ 
+}
+
+.acimages_small img {
+	border-radius: 7%;
+	box-shadow:6px 2px 2px 2px rgb(209, 207, 207);
+	display:flex;
+	width: 260px;
+	margin: 15px;
+	padding-bottom : 45px;
+	height: 150px;
+	object-fit: cover;
+
+}
+
+.acimages_S img {
+	border-radius: 7%;
+	box-shadow:6px 2px 2px 2px rgb(209, 207, 207);
+	display:flex;
+	width: 260px;
+	margin: 15px;
+	padding-bottom : 45px;
+	height: 150px;
+	object-fit: cover;
+}
+
+.acimages img {
+	border-radius: 7%;
+	box-shadow:6px 2px 2px 2px rgb(209, 207, 207);
+	display:flex;
+	width: 260px;
+	margin: 15px;
+	padding-bottom : 45px;
+	height: 160px;
+}
+
+
+.ac {
+	position: relative;
+	top: -40px;
+	font-size: small;
+	left: 25px;
+	font-weight: bolder;
+	margin-left: 7px;
+}
+
+.ac a {
+	text-decoration: none;
+	color:black;
+}
+
+/* Les plus populaires */
+
+#LPP {
+	background-color: #F2F2F2;
+	position: relative;
+	flex:1 1 10%;
+	width:40%;
+	border-radius: 2%;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start center;
+	margin-top:20px;
+}
+
+#Titre_LPP a {
+	text-decoration: none;
+	color: black;
+	margin-left: 30px;
+	position: relative;
+	bottom:-30px;
+}
+
+#Images_LPP div {
+
+    padding-top: 10px;
+	padding-left: 5px; 
+
+}
+
+.fas.fa-chart-line {
+	position: absolute; 
+	top:40px ; 
+	right: 30px;
+	color:black;
+}
+
+.parametres {
+			
+    z-index: 1;
+	width: 125px;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.parametres span {
+	font-weight :bolder;
+}
+
+.parametres a {
+	text-decoration: none;
+	color:black;
+}
+.IMG_LPP {
+	background-color: white;
+	margin:50px;
+	width: 300px;
+	height: 120px;
+	display: flex;
+    flex-flow: row wrap;
+	border-radius:8px;
+	position:relative;
+	top:-40px;
+	
+}
+
+.IMG_LPP img {
+	width: 100px;
+	height:120px;
+	position:relative;
+	top:-5px;
+	object-fit: cover;
+	border-radius: 15px 2px 2px 15px;
+
+}
+
+#Titre_LPP {
+	position:relative;
+	margin:15px;
+}
+
+/* Pied de page */
+
+footer {
+	background-color: #F2F2F2;
+	
+}
+
+#Fin_Page {
+	width : 100%;
+	display: flex;
+	justify-content:space-around;
+}
+
+.fin {
+	line-height: 25px;
+}
+
+.fin a {
+	text-decoration: none;
+	color:black;
+}
+
+/* Navigation */
+
+nav ul{ 
+
+	display: inline;
+}
+
+li{
+	padding:5px;
+	display:inherit;
+	position: relative;
+	top:-60px;
+	left: 1050px;
+}
+
+#Liens {
+	display: flex;
+
+}
+
+.fas.fa-map-marker-alt {
+	
+	background-color: #f2f2f2;
+    color:gray;
+	border:solid;
+	border-color:#f2f2F2; 
+	padding: 8px;
+	border-radius: 5px;
+	position:relative;
+    left:18px;
+}
+		
+/* Définition de la police personnalisée */
+
+@font-face{
+	font-family: 'Raleway-ExtraBold', sans-serif ;
+	src: url(/Raleway/static/Raleway-ExtraBold.ttf);
+}
+
+body {
+	font-family:'Raleway-ExtraBold', sans-serif;
+}
+
+
+
+/* Alignement des éléments */
+
+form {
+	display: inline;
+}
+
+
+
+
+
+	
+
+
+
+ 

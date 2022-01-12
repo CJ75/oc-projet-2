@@ -1,0 +1,11 @@
+@media (max-width : 768px )
+
+{
+    body { margin-bottom:0;
+
+    }
+
+    img { max-width:768px;
+
+    }
+}
